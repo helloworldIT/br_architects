@@ -1,0 +1,41 @@
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .m-two-column{
+        width: 50%;
+    }
+
+    .contact-btn{
+        font-size: 16px;
+    }
+}
+
+/* Mobile phone*/
+@media (max-width: 46.1875em){
+    .s-col-ful{
+        width: 100%;
+    }
+
+    #nav .nav-bar li:not(:first-child){
+        display: none;
+    }
+
+    #header h1 span:not([class*=logo])
+    {
+        display: none;
+    }
+
+    .contact form .send-button{
+        width: 100%; 
+        margin-top: 24px;
+    }
+
+
+}
+
+/* Mobile & tablet */
+
+@media (max-width: 63.9375em){
+    .contact form input{
+        padding: 12px!important;
+    }
+}
